@@ -1,0 +1,38 @@
+name: Fetch CSRC filings
+on:
+  schedule:
+    # 每天香港时间凌晨 2 点跑（UTC 前一天 18:00）
+    - cron: '0 18 * * *'
+  # 推送代码时也手动触发一次，方便测试
+  push:
+    branches: [ main ]
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas openpyxl
+
+      - name: Run fetch script
+        run: python scripts/fetch_filings.py
+
+      - name: Commit updated data
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/
+          git commit -m "Auto update filings data [skip ci]" || echo "No changes to commit"
+          git push
