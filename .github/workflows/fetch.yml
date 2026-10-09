@@ -30,15 +30,18 @@ jobs:
         run: python scripts/fetch_filings.py
 
       - name: Commit updated data
+        continue-on-error: true
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add data/
-          if [[ -n "$(git status --porcelain)" ]]; then
+          CHANGES=$(git status --porcelain)
+          if [ -n "$CHANGES" ]; then
             git commit -m "Auto update filings data [skip ci]"
             git push
           else
             echo "No new data, skip commit & push"
           fi
+
 
           
