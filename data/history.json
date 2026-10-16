@@ -13,5 +13,20 @@
     "statusChangedCount": 0,
     "fetchedAt": "2026-10-09 19:55:40",
     "fileName": "境内企业境外发行证券和上市备案情况表（首次公开发行及全流通）（截至2026年9月30日）.xlsx"
+  },
+  {
+    "periodDate": "2026-10-16",
+    "period": "截至2026年10月16日",
+    "total": 266,
+    "statusCount": {
+      "征求意见": 107,
+      "补充材料": 89,
+      "已接收": 70
+    },
+    "sha256": "a54bbf20ce1fc834ed8afc2414903a214fab567eec2a7c698a5386e87487c19a",
+    "addedCount": 4,
+    "statusChangedCount": 7,
+    "fetchedAt": "2026-10-17 02:16:39",
+    "fileName": "境内企业境外发行证券和上市备案情况表（首次公开发行及全流通）（截至2026年10月16日） .xlsx"
   }
 ]
