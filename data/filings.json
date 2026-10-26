@@ -4,11 +4,11 @@
     "period": "截至2026年10月23日",
     "periodDate": "2026-10-23",
     "publishedAt": "",
-    "pageUrl": "https://www.csrc.gov.cn/csrc/c106251/c7666407/content.shtml",
-    "fileUrl": "https://www.csrc.gov.cn/csrc/c106251/c7666407/7666407/files/616422d4246040808cb9bb85c0c7eb1a.xlsx",
+    "pageUrl": "https://www.csrc.gov.cn/csrc/c106251/c7666675/content.shtml",
+    "fileUrl": "https://www.csrc.gov.cn/csrc/c106251/c7666675/7666675/files/1ecc759c5e214ec9aec439f37c966eb2.xlsx",
     "fileName": "境内企业境外发行证券和上市备案情况表（首次公开发行及全流通）（截至2026年10月23日） .xlsx",
-    "sha256": "675f636ed4ce267add5c05b8f8b0f7aaf7c5960226602a5b828292390b6bf297",
-    "fetchedAt": "2026-10-24 02:17:44",
+    "sha256": "b3bc215b447a0c772acf7a09c3e50368690ff54c6f8ef9808aa09f9145ce7787",
+    "fetchedAt": "2026-10-27 02:32:14",
     "total": 267,
     "statusCount": {
       "征求意见": 109,
@@ -22,40 +22,19 @@
     },
     "source": "中国证监会官网公开信息（自动采集）",
     "changes": {
-      "added": [
-        "上海果纳半导体技术股份有限公司",
-        "宁波韵升股份有限公司"
-      ],
-      "removed": [
-        "药捷安康（南京）科技股份有限公司"
-      ],
-      "statusChanged": [
-        {
-          "name": "紫讯技术（福建）股份有限公司",
-          "from": "已接收",
-          "to": "征求意见"
-        },
-        {
-          "name": "深圳市铂科新材料股份有限公司",
-          "from": "已接收",
-          "to": "征求意见"
-        },
-        {
-          "name": "视觉（中国）文化发展股份有限公司",
-          "from": "已接收",
-          "to": "补充材料"
-        }
-      ],
-      "addedCount": 2,
-      "statusChangedCount": 3,
-      "removedCount": 1
+      "added": [],
+      "removed": [],
+      "statusChanged": [],
+      "addedCount": 0,
+      "statusChangedCount": 0,
+      "removedCount": 0
     }
   },
   "rows": [
     {"no": 1, "name": "GoodFaith Technology Inc.", "type": "间接境外上市", "subject": "苏州承信信息科技有限公司", "venue": "纳斯达克交易所", "sponsor": "Revere Securities LLC Alliance Global Partners", "lawyer": "锦天城律师事务所", "date": "2023年6月28日", "status": "补充材料", "remark": ""},
     {"no": 2, "name": "Lemeng Holdings Limited （乐盟控股有限公司）", "type": "间接境外上市", "subject": "北京乐盟互动科技有限公司", "venue": "纳斯达克交易所", "sponsor": "Prime Number Capital", "lawyer": "北京市竞天公诚律师事务所", "date": "2023年7月6日", "status": "补充材料", "remark": ""},
     {"no": 3, "name": "MED EIBY Holding Co.,Limited （璦碧医疗控股有限公司）", "type": "间接境外上市", "subject": "深圳市贝斯曼精密仪器有限公司", "venue": "纳斯达克交易所", "sponsor": "Boustead Securities LLC", "lawyer": "北京市汉坤（深圳）律师事务所", "date": "2023年7月11日", "status": "补充材料", "remark": ""},
-    {"no": 4, "name": "NEOTV GROUP LIMITED", "type": "间接境外上市", "subject": "上海网映文化传播股份有限公司", "venue": "众安信科", "sponsor": "Prime Number Capital, LLC", "lawyer": "上海市方达律师事务所", "date": "2023年7月20日", "status": "补充材料", "remark": ""},
+    {"no": 4, "name": "NEOTV GROUP LIMITED", "type": "间接境外上市", "subject": "上海网映文化传播股份有限公司", "venue": "纳斯达克交易所", "sponsor": "Prime Number Capital, LLC", "lawyer": "上海市方达律师事务所", "date": "2023年7月20日", "status": "补充材料", "remark": ""},
     {"no": 5, "name": "Semidux (Cayman) Holding Limited（杰微开曼国际控股公司）", "type": "间接境外上市", "subject": "深圳杰微芯片科技有限公司", "venue": "纳斯达克交易所", "sponsor": "EF Hutton, division of Benchmark Investments, LLC", "lawyer": "北京大成（广州）律师事务所", "date": "2023年7月24日", "status": "补充材料", "remark": "秘交转公开"},
     {"no": 6, "name": "Yunhuisuan （Cayman）Technology Ltd", "type": "间接境外上市", "subject": "云汇算（湖南）科技有限公司", "venue": "纳斯达克交易所", "sponsor": "Univest Securities，LLC", "lawyer": "上海锦天城（福州）律师事务所", "date": "2023年8月7日", "status": "补充材料", "remark": ""},
     {"no": 7, "name": "FD TECHNOLOGY INC. （分蛋信息科技有限公司）", "type": "间接境外上市", "subject": "上海分蛋信息科技有限公司", "venue": "纳斯达克交易所", "sponsor": "Aegis Capital Corp.", "lawyer": "北京大成（成都）律师事务所", "date": "2023年8月25日", "status": "补充材料", "remark": ""},
